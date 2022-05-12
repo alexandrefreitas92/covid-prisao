@@ -59,4 +59,4 @@ acordaos_sorteados <- acordaos_sorteados %>%
 
 # Escrever xlsx com os acordãos sorteados ---------------------------------
 
-write.xlsx(acordaos_sorteados, "Análise dos acordãos.xlsx", asTable = FALSE)
+write.xlsx(acordaos_sorteados, "analise_acordaos.xlsx", asTable = FALSE)

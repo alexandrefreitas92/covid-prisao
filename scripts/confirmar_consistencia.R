@@ -4,7 +4,7 @@ library(tidyverse)
 library(openxlsx)
 
 # Ler base de dados -------------------------------------------------------
-acordaos <- read.xlsx("data/Análise dos acordãos.xlsx")
+acordaos <- read.xlsx("data/analise_acordaos.xlsx")
 decisoes <- read.xlsx("data/Decisões em habeas corpus - TJMG.xlsx", startRow = 2)
 
 # * Casos repetidos -------------------------------------------------------
